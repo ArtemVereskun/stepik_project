@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-def pytest_addoption(parser):
+def pytest_add_option(parser):
     parser.addoption("--language", action="store", default="en",
                      help="Specify the language for tests")
 
